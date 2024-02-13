@@ -1,8 +1,55 @@
 *{
     font-family: sans-serif;
-    background-color: #ca4f26;
+    background-color: url(imagens/fundo\ \(1\).jpg);
 }
 
 .cabecalho{
     background-color: #b22d00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.telefone{
+    color: white;
+    font-size: 22px;
+}
+
+.menu{
+    background-color: #d9a300;
+    padding: 14px 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.conteudo{
+    background-color: white;
+    padding: 50px 20px 20px 20px;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+hr{
+    height: 1px;
+    border: 0;
+    background-color: black;
+}
+
+.coluna{
+    display: inline-block;
+}
+
+.linha{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
